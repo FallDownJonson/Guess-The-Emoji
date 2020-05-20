@@ -7,6 +7,13 @@ header {
 
 nav {
   background-color: #66c2ff;
+  padding 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+aside {
+  background-color: #66c2ff;
   padding 50px;
   text-align: center;
   font-size: 15px;
