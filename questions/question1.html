@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script>
+function myFunction() {
+  document.getElementById("answer").innerHTML = "IPhone";
+}
+</script>
 <title>Question 1</title>
 <link rel="stylesheet" type="text/css" href="../questions.css">
 </head>
@@ -17,11 +22,9 @@
 <aside>
   <h2>&#127822;&#128241;</h2>
   <br>
-  <form action="../answer1.js">
-    <label for="fname">First name:</label>
-    <input type="text" id="fname" name="fname"><br><br>
-    <label for="lname">Last name:</label>
-    <input type="text" id="lname" name="lname"><br><br>
+  <form>
+    <label for="def">Definition:</label>
+    <input id="answer" type="text" id="def" name="def"><br><br>
     <input type="submit" value="Submit">
   </form>
 </aside>  
