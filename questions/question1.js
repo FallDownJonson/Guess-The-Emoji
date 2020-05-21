@@ -1,5 +1,3 @@
-if (def = "iPhone") {
-  alert("Correct");
-} else
-  alert("Incorrect");
+function myFunction() {
+  document.getElementById("def").innerHTML = "Paragraph changed.";
 }
