@@ -4,6 +4,9 @@
 <title>Question 1</title>
 <link rel="stylesheet" type="text/css" href="../questions.css">
 <script>
+  function myFunction() {
+  document.getElementById("continue").innerHTML = <button onclick="document.location = 'question2.html'">Continue</button>;
+}
 </script>
 </head>
 <body style="background-color:#007acc;">
@@ -23,7 +26,7 @@
     <label for="def">Definition:</label>
     <input type="text" id="def" name="def"><br><br>
     <button onclick="myFunction()">Sumit</button><br><br>
-    <button disabled>Continue</button>
+    <button id="continue" disabled>Continue</button>
   </form>
 </aside>  
   
