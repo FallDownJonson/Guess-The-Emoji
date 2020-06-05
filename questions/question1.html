@@ -5,7 +5,8 @@
 <link rel="stylesheet" type="text/css" href="../questions.css">
 <script>
   function myFunction() {
-  document.getElementById("continue").innerHTML = <button onclick="document.location = 'question2.html'">Continue</button>;
+    if (def = "iPhone") {
+    document.getElementById("continue").innerHTML = <button onclick="document.location = 'question2.html'">Continue</button>;
 }
 </script>
 </head>
@@ -26,7 +27,7 @@
     <label for="def">Definition:</label>
     <input type="text" id="def" name="def"><br><br>
     <input type="button" onclick="myFunction()" value="Summit"><br><br>
-    <input disabled type="button" id="continue" name="continue" value="Continue">
+    <input disabled type="button" id="continue" name="Continue" value="Continue">
   </form>
 </aside>  
   
